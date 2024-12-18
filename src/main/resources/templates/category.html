@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Категории</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 <header>
     <h2>Management System</h2>
     <nav>
         <ul>
-            <li><a href="items.html">Управление товарами</a></li>
-            <li><a href="category.html">Категории</a></li>
-            <li><a href="about.html">Об авторе</a></li>
+            <li><a href="/">Управление товарами</a></li>
+            <li><a href="/category">Категории</a></li>
+            <li><a href="/about">Об авторе</a></li>
+            <li><a href="/logout">Выход</a></li>
         </ul>
     </nav>
 </header>
@@ -21,7 +22,7 @@
     <h1>Category Manager</h1>
 
     <!-- Form for Adding/Updating Category -->
-    <form id="category-form">
+    <form id="category-form" >
         <input type="hidden" id="category-id">
         <div>
             <label for="name">Name:</label>
@@ -38,6 +39,6 @@
     <h2>Categories</h2>
     <ul id="category-list"></ul>
 </div>
-<script src="app.js"></script>
+<script src="/app.js"></script>
 </body>
 </html>
